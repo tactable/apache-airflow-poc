@@ -41,14 +41,16 @@ merge_csv ➡️ extract_student_ids ➡️ Data_enrichment ➡️ save_json
 
 📌 **How to Run the Airflow POC**
 
-## 1️⃣ Start Airflow with Docker  
+## 1️⃣ Start Airflow with devcontainer  
 
-Run the following command to start all Airflow services:
+Install devcontainer plugin on VScode
+![Image](https://github.com/user-attachments/assets/882c9cd8-2049-4b6f-8f59-9f57c7714a42)
 
+Search command: win+shift+p - rebuild And Reopen In Container
 ```bash
-docker-compose up -d
+@command:remote-containers.rebuildAndReopenInContainer
 ```
-
+![Image](https://github.com/user-attachments/assets/e738b49c-3148-4dbd-ae9f-113aed68b348)
 
 ## 2️⃣ Access the Airflow Web UI  
 
