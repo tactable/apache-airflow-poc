@@ -80,7 +80,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
     - ${AIRFLOW_PROJ_DIR:-.}/output:/opt/airflow/output
     - ${AIRFLOW_PROJ_DIR:-.}/javaLib:/opt/airflow/javaLib
-    - ${AIRFLOW_PROJ_DIR:-.}/requirements.txt:/requirements.txt
+    - ${AIRFLOW_PROJ_DIR:-.}/requirements.txt:/opt/airflow/requirements.txt
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -89,6 +89,7 @@ x-airflow-common:
     postgres:
       condition: service_healthy
 
+version: '3.8'
 services:
   postgres:
     image: postgres:13

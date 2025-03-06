@@ -1,0 +1,47 @@
+{
+    "name": "Apache Flink POC",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "airflow-worker",
+    "runServices": [
+        "postgres",
+        "redis",
+        "airflow-webserver",
+        "airflow-scheduler",
+		"airflow-init",
+		"airflow-cli"
+    ],
+    "workspaceFolder": "/opt/airflow",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "redhat.java",
+                "vscjava.vscode-maven",
+                "vscjava.vscode-java-debug",
+                "vscjava.vscode-java-dependency",
+                "vscjava.vscode-java-test"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                }
+            }
+        }
+    },
+	"postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/maven-sdkman:2": {
+            "jdkVersion": "8",
+            "jdkDistribution": "open"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.9"
+        }
+    },
+    "forwardPorts": [
+        8080
+    ]
+}
