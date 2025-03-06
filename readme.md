@@ -1,0 +1,106 @@
+# 🚀 Airflow POC for Student Data Processing
+
+##  Overview
+This Proof of Concept (POC) demonstrates an **Apache Airflow** pipeline that processes student data using **CSV files**, **a Java JAR file**, and **Dockerized Airflow setup**. The pipeline extracts student data, enriches it using a **Java application**, and stores the results in **JSON format**.
+
+---
+
+##  High-Level Architecture
+The system consists of the following key components:
+
+1. **Apache Airflow DAG (`dummyDag.py`)**
+   - Extracts student data from CSV files.
+   - Calls a **Java JAR** file to enrich student data.
+   - Saves the enriched data to a JSON file.
+
+2. **Java JAR (`refdata-1.0-SNAPSHOT.jar`)**
+   - Fetches additional student information (e.g., **Address, Major**) based on the Student ID.
+
+3. **Dockerized Environment**
+   - Uses a **Dockerfile** to set up Airflow with Java 8 support.
+   - `docker-compose.yml` orchestrates the Airflow services.
+
+---
+
+## ️ DAG Workflow
+
+The DAG processes student data through the following tasks:
+
+- **merge_csv**: Reads two CSV source files and merges them into one, renaming columns.
+- **extract_student_ids**: Extracts student IDs from the merged CSV file.
+- **Data_enrichment**: Calls a Java JAR to enrich student data based on student IDs.
+- **save_json**: Saves the enriched student data to a JSON file.
+
+**DAG Flow**:
+
+```
+merge_csv ➡️ extract_student_ids ➡️ Data_enrichment ➡️ save_json
+```
+![Image](https://github.com/user-attachments/assets/3e06f898-34a0-4bbb-98aa-6691cb55fbbe)
+---
+
+📌 **How to Run the Airflow POC**
+
+## 1️⃣ Start Airflow with Docker  
+
+Run the following command to start all Airflow services:
+
+```bash
+docker-compose up -d
+```
+
+
+## 2️⃣ Access the Airflow Web UI  
+
+Open your browser and navigate to:
+
+```bash
+http://localhost:8080
+```
+
+- **Username:** `airflow`
+- **Password:** `airflow`
+
+
+## 3️⃣ Trigger the DAG from the Airflow Web UI  
+
+1. In the **Airflow UI**, go to the **DAGs** list.  
+2. Locate `TD_pipeline_POC` (or your DAG name). ![Image](https://github.com/user-attachments/assets/b6b1bc23-fd36-47d1-867c-48466acabc9f) 
+3. Click the **Trigger DAG** button ▶️.![Image](https://github.com/user-attachments/assets/d3742492-9839-40a6-9bf9-b5d17628a182)
+
+
+## 4️⃣ Verify the Output  
+
+Once the DAG has successfully run:
+
+- Check the **output JSON file** inside your **project's `output/` folder** (since it is mounted in Docker):
+
+```bash
+cat output/enriched_students.json
+```
+
+- Alternatively, check from your **file explorer** (e.g., VS Code, Finder, Windows Explorer).
+
+---
+
+## ** Expected Output**
+After running the DAG, the JSON file `/output/enriched_students.json` should contain:
+```json
+[
+  {
+    "studentID": "1",
+    "Name": "Alice",
+    "Age": 27,
+    "Address": "123 Main St",
+    "Major": "Computer Science"
+  },
+  {
+    "studentID": "2",
+    "Name": "Bob",
+    "Age": 30,
+    "Address": "456 Queen St",
+    "Major": "Mathematics"
+  }
+]
+```
+

@@ -1,0 +1,757 @@
+[2025-03-05T22:56:30.008+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:56:30.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:56:30.011+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:56:30.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:56:30.333+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:56:30.346+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:56:30.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:56:30.358+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:56:30.358+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-05-13 00:00:00+00:00, run_after=2024-05-14 00:00:00+00:00
+[2025-03-05T22:56:30.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.364 seconds
+[2025-03-05T22:57:00.664+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:00.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:57:00.674+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:57:00.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:01.272+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:01.298+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:57:01.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:57:01.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.680 seconds
+[2025-03-05T22:57:31.813+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:31.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:57:31.817+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:57:31.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:32.663+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:57:32.709+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:57:32.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:57:32.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.063 seconds
+[2025-03-05T22:58:03.165+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:03.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:58:03.178+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:03.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:03.996+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:04.017+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:04.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:58:04.045+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:04.045+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-07-17 00:00:00+00:00, run_after=2024-07-18 00:00:00+00:00
+[2025-03-05T22:58:04.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.933 seconds
+[2025-03-05T22:58:34.501+0000] {processor.py:186} INFO - Started process (PID=797) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:34.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:58:34.506+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:34.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:35.023+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:58:35.039+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:35.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:58:35.052+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:58:35.052+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-08-04 00:00:00+00:00, run_after=2024-08-05 00:00:00+00:00
+[2025-03-05T22:58:35.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.573 seconds
+[2025-03-05T22:59:05.537+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:05.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:59:05.544+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:05.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:06.242+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:06.270+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:06.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:59:06.296+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:06.296+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2025-03-05T22:59:06.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.791 seconds
+[2025-03-05T22:59:23.930+0000] {processor.py:186} INFO - Started process (PID=931) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:23.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:59:23.959+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:23.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:25.390+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:25.479+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:25.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:59:25.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.714 seconds
+[2025-03-05T22:59:31.251+0000] {processor.py:186} INFO - Started process (PID=950) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:31.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:59:31.254+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:31.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:31.609+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:31.661+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:31.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:59:31.679+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:31.679+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-09-07 00:00:00+00:00, run_after=2024-09-08 00:00:00+00:00
+[2025-03-05T22:59:31.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.447 seconds
+[2025-03-05T22:59:32.265+0000] {processor.py:186} INFO - Started process (PID=955) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:32.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:59:32.268+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:32.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:32.833+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:32.828+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dummyDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dummyDag.py", line 10, in <module>
+    logging.basicConfig(level=logging.INFO)
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'
+[2025-03-05T22:59:32.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:32.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.592 seconds
+[2025-03-05T22:59:40.804+0000] {processor.py:186} INFO - Started process (PID=956) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:40.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T22:59:40.807+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:40.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:41.192+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T22:59:41.208+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:41.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T22:59:41.222+0000] {logging_mixin.py:190} INFO - [2025-03-05T22:59:41.222+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-09-08 00:00:00+00:00, run_after=2024-09-09 00:00:00+00:00
+[2025-03-05T22:59:41.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.435 seconds
+[2025-03-05T23:00:11.528+0000] {processor.py:186} INFO - Started process (PID=1061) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:11.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:00:11.568+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:00:11.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:12.370+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:12.411+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:00:12.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:00:12.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.952 seconds
+[2025-03-05T23:00:42.723+0000] {processor.py:186} INFO - Started process (PID=1145) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:42.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:00:42.736+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:00:42.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:43.710+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:00:43.749+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:00:43.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:00:43.778+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:00:43.778+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-10-26 00:00:00+00:00, run_after=2024-10-27 00:00:00+00:00
+[2025-03-05T23:00:43.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.102 seconds
+[2025-03-05T23:01:14.154+0000] {processor.py:186} INFO - Started process (PID=1257) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:14.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:01:14.170+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:14.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:15.289+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:15.328+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:15.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:01:15.353+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:15.353+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2025-03-05T23:01:15.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.236 seconds
+[2025-03-05T23:01:45.548+0000] {processor.py:186} INFO - Started process (PID=1363) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:45.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:01:45.558+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:45.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:46.602+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:01:46.632+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:46.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:01:46.658+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:01:46.658+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2025-03-05T23:01:46.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.150 seconds
+[2025-03-05T23:02:16.836+0000] {processor.py:186} INFO - Started process (PID=1483) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:16.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:02:16.844+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:02:16.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:17.931+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:18.008+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:02:18.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:02:18.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 1.288 seconds
+[2025-03-05T23:02:44.732+0000] {processor.py:186} INFO - Started process (PID=1557) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:44.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:02:44.737+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:02:44.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:45.495+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:02:45.529+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:02:45.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:02:45.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.880 seconds
+[2025-03-05T23:03:15.989+0000] {processor.py:186} INFO - Started process (PID=1646) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:15.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:03:15.995+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:03:15.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:16.833+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:16.876+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:03:16.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:03:16.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.960 seconds
+[2025-03-05T23:03:47.230+0000] {processor.py:186} INFO - Started process (PID=1743) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:47.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:03:47.235+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:03:47.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:47.844+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:03:47.880+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:03:47.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:03:47.916+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:03:47.916+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-02-16 00:00:00+00:00, run_after=2025-02-17 00:00:00+00:00
+[2025-03-05T23:03:47.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.751 seconds
+[2025-03-05T23:04:18.416+0000] {processor.py:186} INFO - Started process (PID=1822) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:18.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:04:18.419+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:18.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:18.785+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:18.799+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:18.799+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:04:18.812+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:18.812+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:04:18.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.410 seconds
+[2025-03-05T23:04:48.924+0000] {processor.py:186} INFO - Started process (PID=1829) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:48.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:04:48.926+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:48.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:49.262+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:04:49.276+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:49.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:04:49.287+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:04:49.287+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:04:49.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.378 seconds
+[2025-03-05T23:05:19.404+0000] {processor.py:186} INFO - Started process (PID=1836) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:19.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:05:19.407+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:19.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:19.788+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:19.805+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:19.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:05:19.826+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:19.826+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:05:19.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.440 seconds
+[2025-03-05T23:05:50.156+0000] {processor.py:186} INFO - Started process (PID=1843) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:50.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:05:50.158+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:50.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:50.478+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:05:50.492+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:50.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:05:50.504+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:05:50.504+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:05:50.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.362 seconds
+[2025-03-05T23:06:20.828+0000] {processor.py:186} INFO - Started process (PID=1850) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:20.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:06:20.831+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:20.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:21.139+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:21.154+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:21.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:06:21.167+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:21.167+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:06:21.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.353 seconds
+[2025-03-05T23:06:51.473+0000] {processor.py:186} INFO - Started process (PID=1857) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:51.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:06:51.475+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:51.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:51.791+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:06:51.805+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:51.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:06:51.817+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:06:51.817+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:06:51.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.359 seconds
+[2025-03-05T23:07:22.156+0000] {processor.py:186} INFO - Started process (PID=1864) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:22.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:07:22.158+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:22.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:22.500+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:22.516+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:22.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:07:22.530+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:22.530+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:07:22.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.389 seconds
+[2025-03-05T23:07:52.830+0000] {processor.py:186} INFO - Started process (PID=1871) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:52.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:07:52.835+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:52.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:53.339+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:07:53.357+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:53.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:07:53.375+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:07:53.375+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:07:53.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.567 seconds
+[2025-03-05T23:08:23.662+0000] {processor.py:186} INFO - Started process (PID=1878) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:23.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:08:23.669+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:23.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:24.141+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:24.160+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:24.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:08:24.187+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:24.187+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:08:24.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.552 seconds
+[2025-03-05T23:08:54.291+0000] {processor.py:186} INFO - Started process (PID=1885) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:54.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:08:54.293+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:54.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:54.809+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:08:54.829+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:54.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:08:54.852+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:08:54.852+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:08:54.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.585 seconds
+[2025-03-05T23:09:25.108+0000] {processor.py:186} INFO - Started process (PID=1892) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:25.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:09:25.111+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:25.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:25.590+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:25.619+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:25.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:09:25.644+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:25.643+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:09:25.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.555 seconds
+[2025-03-05T23:09:55.921+0000] {processor.py:186} INFO - Started process (PID=1898) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:55.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:09:55.923+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:55.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:56.294+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:09:56.316+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:56.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:09:56.329+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:09:56.329+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:09:56.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.432 seconds
+[2025-03-05T23:10:26.601+0000] {processor.py:186} INFO - Started process (PID=1911) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:26.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:10:26.604+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:26.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:26.981+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:26.999+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:26.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:10:27.013+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:27.013+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:10:27.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.427 seconds
+[2025-03-05T23:10:57.315+0000] {processor.py:186} INFO - Started process (PID=1918) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:57.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:10:57.320+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:57.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:57.698+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:10:57.719+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:57.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:10:57.734+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:10:57.734+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:10:57.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.437 seconds
+[2025-03-05T23:11:28.022+0000] {processor.py:186} INFO - Started process (PID=1925) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:28.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:11:28.024+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:28.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:28.397+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:28.414+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:28.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:11:28.429+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:28.429+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:11:28.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.423 seconds
+[2025-03-05T23:11:58.736+0000] {processor.py:186} INFO - Started process (PID=1931) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:58.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:11:58.738+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:58.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:59.113+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:11:59.132+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:59.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:11:59.146+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:11:59.146+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:11:59.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.430 seconds
+[2025-03-05T23:12:29.444+0000] {processor.py:186} INFO - Started process (PID=1938) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:12:29.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:12:29.450+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:12:29.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:12:29.896+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:12:29.915+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:12:29.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:12:29.937+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:12:29.937+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:12:29.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.515 seconds
+[2025-03-05T23:13:00.262+0000] {processor.py:186} INFO - Started process (PID=1945) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:00.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:13:00.264+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:00.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:00.756+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:00.775+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:00.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:13:00.799+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:00.798+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:13:00.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.554 seconds
+[2025-03-05T23:13:30.941+0000] {processor.py:186} INFO - Started process (PID=1952) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:30.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:13:30.943+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:30.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:31.312+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:13:31.329+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:31.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:13:31.344+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:13:31.343+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:13:31.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.419 seconds
+[2025-03-05T23:14:01.420+0000] {processor.py:186} INFO - Started process (PID=1959) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:01.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:14:01.422+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:01.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:01.788+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:01.808+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:01.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:14:01.820+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:01.820+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:14:01.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.415 seconds
+[2025-03-05T23:14:31.888+0000] {processor.py:186} INFO - Started process (PID=1966) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:31.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:14:31.891+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:31.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:32.274+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:14:32.289+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:32.289+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:14:32.304+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:14:32.303+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:14:32.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.432 seconds
+[2025-03-05T23:15:02.370+0000] {processor.py:186} INFO - Started process (PID=1973) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:02.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:15:02.373+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:02.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:02.901+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:02.921+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:02.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:15:02.943+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:02.943+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:15:02.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.598 seconds
+[2025-03-05T23:15:33.294+0000] {processor.py:186} INFO - Started process (PID=1980) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:33.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:15:33.297+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:33.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:33.686+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:15:33.707+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:33.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:15:33.720+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:15:33.720+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:15:33.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.450 seconds
+[2025-03-05T23:16:03.891+0000] {processor.py:186} INFO - Started process (PID=1987) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:03.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:16:03.893+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:03.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:04.231+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:04.245+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:04.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:16:04.258+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:04.258+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:16:04.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.382 seconds
+[2025-03-05T23:16:34.460+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:34.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:16:34.462+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:34.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:34.760+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:16:34.776+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:34.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:16:34.789+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:16:34.789+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:16:34.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.342 seconds
+[2025-03-05T23:17:05.552+0000] {processor.py:186} INFO - Started process (PID=2001) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:17:05.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:17:05.554+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:17:05.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:17:05.844+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:17:05.858+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:17:05.858+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:17:05.869+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:17:05.869+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:17:05.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.331 seconds
+[2025-03-05T23:18:12.474+0000] {processor.py:186} INFO - Started process (PID=2008) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:12.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:18:12.476+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:12.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:12.784+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:12.797+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:12.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:18:12.809+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:12.809+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:18:12.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.347 seconds
+[2025-03-05T23:18:42.914+0000] {processor.py:186} INFO - Started process (PID=2015) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:42.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:18:42.917+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:42.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:43.212+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:18:43.225+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:43.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:18:43.236+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:18:43.236+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:18:43.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.337 seconds
+[2025-03-05T23:19:44.314+0000] {processor.py:186} INFO - Started process (PID=2022) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:19:44.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:19:44.316+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:19:44.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:19:44.603+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:19:44.616+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:19:44.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:19:44.628+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:19:44.628+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:19:44.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.328 seconds
+[2025-03-05T23:20:14.972+0000] {processor.py:186} INFO - Started process (PID=2029) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:14.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:20:14.974+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:14.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:15.261+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:15.275+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:15.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:20:15.287+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:15.287+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:20:15.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.329 seconds
+[2025-03-05T23:20:46.489+0000] {processor.py:186} INFO - Started process (PID=2036) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:46.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:20:46.491+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:46.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:46.805+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:20:46.819+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:46.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:20:46.831+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:20:46.831+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:20:46.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.355 seconds
+[2025-03-05T23:21:42.611+0000] {processor.py:186} INFO - Started process (PID=2043) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:21:42.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:21:42.614+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:21:42.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:21:42.900+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:21:42.914+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:21:42.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:21:42.925+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:21:42.925+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:21:42.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.329 seconds
+[2025-03-05T23:22:13.227+0000] {processor.py:186} INFO - Started process (PID=2050) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:22:13.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:22:13.230+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:22:13.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:22:13.629+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:22:13.644+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:22:13.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:22:13.659+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:22:13.659+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:22:13.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.448 seconds
+[2025-03-05T23:23:06.038+0000] {processor.py:186} INFO - Started process (PID=2057) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:06.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:23:06.040+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:06.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:06.352+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:06.366+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:06.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:23:06.379+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:06.379+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:23:06.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.355 seconds
+[2025-03-05T23:23:48.739+0000] {processor.py:186} INFO - Started process (PID=2064) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:48.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:23:48.742+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:48.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:49.026+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:23:49.040+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:49.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:23:49.051+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:23:49.051+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:23:49.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.326 seconds
+[2025-03-05T23:24:19.391+0000] {processor.py:186} INFO - Started process (PID=2071) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:19.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:24:19.393+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:19.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:19.681+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:19.694+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:19.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:24:19.706+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:19.706+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:24:19.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.331 seconds
+[2025-03-05T23:24:50.179+0000] {processor.py:186} INFO - Started process (PID=2078) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:50.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:24:50.181+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:50.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:50.471+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:24:50.484+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:50.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:24:50.497+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:24:50.496+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:24:50.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.331 seconds
+[2025-03-05T23:25:36.695+0000] {processor.py:186} INFO - Started process (PID=2085) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:25:36.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:25:36.697+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:25:36.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:25:37.009+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:25:37.024+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:25:37.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:25:37.036+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:25:37.035+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:25:37.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.353 seconds
+[2025-03-05T23:26:07.384+0000] {processor.py:186} INFO - Started process (PID=2092) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:07.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:26:07.386+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:07.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:07.674+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:07.687+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:07.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:26:07.699+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:07.698+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:26:07.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.329 seconds
+[2025-03-05T23:26:45.457+0000] {processor.py:186} INFO - Started process (PID=2099) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:45.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:26:45.459+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:45.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:45.752+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:26:45.765+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:45.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:26:45.777+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:26:45.777+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:26:45.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.333 seconds
+[2025-03-05T23:27:16.119+0000] {processor.py:186} INFO - Started process (PID=2106) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:27:16.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:27:16.121+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:27:16.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:27:16.429+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:27:16.443+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:27:16.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:27:16.456+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:27:16.456+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:27:16.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.349 seconds
+[2025-03-05T23:28:06.011+0000] {processor.py:186} INFO - Started process (PID=2113) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:06.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:28:06.014+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:06.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:06.298+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:06.313+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:06.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:28:06.325+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:06.325+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:28:06.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.327 seconds
+[2025-03-05T23:28:53.410+0000] {processor.py:186} INFO - Started process (PID=2120) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:53.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:28:53.413+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:53.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:53.711+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:28:53.725+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:53.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:28:53.737+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:28:53.737+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:28:53.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.342 seconds
+[2025-03-05T23:29:23.975+0000] {processor.py:186} INFO - Started process (PID=2127) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:29:23.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:29:23.977+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:29:23.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:29:24.273+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:29:24.287+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:29:24.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:29:24.298+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:29:24.298+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:29:24.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.340 seconds
+[2025-03-05T23:30:10.245+0000] {processor.py:186} INFO - Started process (PID=2134) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:10.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:30:10.249+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:10.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:10.555+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:10.569+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:10.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:30:10.583+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:10.583+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:30:10.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.352 seconds
+[2025-03-05T23:30:52.702+0000] {processor.py:186} INFO - Started process (PID=2141) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:52.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:30:52.705+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:52.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:53.006+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:30:53.022+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:53.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:30:53.034+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:30:53.034+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:30:53.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.346 seconds
+[2025-03-05T23:31:23.292+0000] {processor.py:186} INFO - Started process (PID=2148) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:23.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:31:23.294+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:23.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:23.600+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:23.614+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:23.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:31:23.625+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:23.625+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:31:23.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.347 seconds
+[2025-03-05T23:31:53.977+0000] {processor.py:186} INFO - Started process (PID=2155) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:53.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:31:53.980+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:53.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:54.263+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:31:54.277+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:54.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:31:54.288+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:31:54.288+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:31:54.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.326 seconds
+[2025-03-05T23:32:24.656+0000] {processor.py:186} INFO - Started process (PID=2162) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:32:24.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:32:24.659+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:32:24.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:32:24.955+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:32:24.969+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:32:24.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:32:24.982+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:32:24.982+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:32:24.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.339 seconds
+[2025-03-05T23:33:07.001+0000] {processor.py:186} INFO - Started process (PID=2169) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:07.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:33:07.003+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:07.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:07.295+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:07.309+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:07.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:33:07.321+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:07.321+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:33:07.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.335 seconds
+[2025-03-05T23:33:37.640+0000] {processor.py:186} INFO - Started process (PID=2176) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:37.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:33:37.642+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:37.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:37.933+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:33:37.946+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:37.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:33:37.957+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:33:37.957+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:33:37.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.330 seconds
+[2025-03-05T23:34:08.299+0000] {processor.py:186} INFO - Started process (PID=2183) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:08.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:34:08.301+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:08.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:08.604+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:08.617+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:08.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:34:08.629+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:08.629+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:34:08.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.343 seconds
+[2025-03-05T23:34:39.019+0000] {processor.py:186} INFO - Started process (PID=2190) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:39.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:34:39.022+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:39.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:39.322+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:34:39.336+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:39.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:34:39.348+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:34:39.348+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:34:39.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.343 seconds
+[2025-03-05T23:35:17.335+0000] {processor.py:186} INFO - Started process (PID=2197) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:17.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:35:17.338+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:17.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:17.710+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:17.728+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:17.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:35:17.743+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:17.742+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:35:17.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.424 seconds
+[2025-03-05T23:35:48.019+0000] {processor.py:186} INFO - Started process (PID=2204) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:48.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:35:48.023+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:48.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:48.345+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:35:48.359+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:48.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:35:48.372+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:35:48.372+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:35:48.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.369 seconds
+[2025-03-05T23:36:18.753+0000] {processor.py:186} INFO - Started process (PID=2211) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:18.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:36:18.755+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:18.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:19.048+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:19.061+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:19.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:36:19.072+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:19.072+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:36:19.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.333 seconds
+[2025-03-05T23:36:49.408+0000] {processor.py:186} INFO - Started process (PID=2218) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:49.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:36:49.411+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:49.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:49.695+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:36:49.709+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:49.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:36:49.722+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:36:49.722+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:36:49.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.327 seconds
+[2025-03-05T23:38:09.859+0000] {processor.py:186} INFO - Started process (PID=2225) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:09.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:38:09.861+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:09.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:10.171+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:10.185+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:10.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:38:10.197+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:10.197+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:38:10.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.350 seconds
+[2025-03-05T23:38:40.513+0000] {processor.py:186} INFO - Started process (PID=2232) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:40.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:38:40.515+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:40.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:40.801+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:38:40.839+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:40.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:38:40.851+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:38:40.851+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:38:40.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.350 seconds
+[2025-03-05T23:39:11.220+0000] {processor.py:186} INFO - Started process (PID=2239) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:11.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:39:11.223+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:11.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:11.521+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:11.535+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:11.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:39:11.547+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:11.547+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:39:11.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.341 seconds
+[2025-03-05T23:39:41.870+0000] {processor.py:186} INFO - Started process (PID=2247) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:41.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:39:41.873+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:41.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:42.157+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:39:42.170+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:42.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:39:42.182+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:39:42.182+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:39:42.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.326 seconds
+[2025-03-05T23:40:12.480+0000] {processor.py:186} INFO - Started process (PID=2254) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:40:12.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:40:12.482+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:40:12.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:40:12.765+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:40:12.779+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:40:12.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:40:12.791+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:40:12.791+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:40:12.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.325 seconds
+[2025-03-05T23:42:04.636+0000] {processor.py:186} INFO - Started process (PID=2261) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:04.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:42:04.637+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:04.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:04.937+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:04.952+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:04.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:42:04.963+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:04.963+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:42:04.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.340 seconds
+[2025-03-05T23:42:35.324+0000] {processor.py:186} INFO - Started process (PID=2268) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:35.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:42:35.326+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:35.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:35.614+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:42:35.628+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:35.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:42:35.639+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:35.639+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:42:35.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.329 seconds
+[2025-03-05T23:43:05.756+0000] {processor.py:186} INFO - Started process (PID=2275) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:05.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:43:05.759+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:05.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:05.996+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:06.015+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:06.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:43:06.031+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:06.030+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:43:06.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.292 seconds
+[2025-03-05T23:43:36.355+0000] {processor.py:186} INFO - Started process (PID=2282) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:36.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:43:36.357+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:36.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:36.557+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:43:36.575+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:36.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:43:36.589+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:36.589+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:43:36.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.249 seconds
+[2025-03-05T23:44:24.667+0000] {processor.py:186} INFO - Started process (PID=2289) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:24.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:44:24.669+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:24.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:24.862+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:24.877+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:24.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:44:24.891+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:24.891+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:44:24.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.238 seconds
+[2025-03-05T23:44:55.166+0000] {processor.py:186} INFO - Started process (PID=2296) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:55.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:44:55.169+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:55.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:55.362+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:44:55.378+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:55.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:44:55.391+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:55.391+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:44:55.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.239 seconds
+[2025-03-05T23:45:25.532+0000] {processor.py:186} INFO - Started process (PID=2303) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:25.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:45:25.534+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:25.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:25.723+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:25.739+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:25.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:45:25.752+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:25.752+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:45:25.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.235 seconds
+[2025-03-05T23:45:56.016+0000] {processor.py:186} INFO - Started process (PID=2310) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:56.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:45:56.018+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:56.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:56.206+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:45:56.221+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:56.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:45:56.235+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:56.235+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:45:56.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.233 seconds
+[2025-03-05T23:46:26.321+0000] {processor.py:186} INFO - Started process (PID=2317) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:46:26.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:46:26.324+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:46:26.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:46:26.756+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:46:26.777+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:46:26.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:46:26.793+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:46:26.792+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:46:26.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.488 seconds
+[2025-03-05T23:49:44.295+0000] {processor.py:186} INFO - Started process (PID=2324) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:49:44.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:49:44.297+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:49:44.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:49:44.502+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:49:44.519+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:49:44.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:49:44.533+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:49:44.533+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:49:44.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.252 seconds
+[2025-03-05T23:50:14.775+0000] {processor.py:186} INFO - Started process (PID=2331) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:14.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:50:14.778+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:14.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:14.969+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:14.985+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:14.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:50:14.998+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:14.998+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:50:15.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.238 seconds
+[2025-03-05T23:50:45.180+0000] {processor.py:186} INFO - Started process (PID=2338) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:45.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:50:45.183+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:45.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:45.376+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:50:45.392+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:45.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:50:45.405+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:45.405+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:50:45.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.240 seconds
+[2025-03-05T23:51:15.628+0000] {processor.py:186} INFO - Started process (PID=2345) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:15.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:51:15.631+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:15.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:15.823+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:15.838+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:15.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:51:15.852+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:15.852+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:51:15.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.240 seconds
+[2025-03-05T23:51:55.230+0000] {processor.py:186} INFO - Started process (PID=2352) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:55.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:51:55.233+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:55.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:55.466+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:51:55.484+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:55.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:51:55.501+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:51:55.501+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:51:55.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.287 seconds
+[2025-03-05T23:52:25.679+0000] {processor.py:186} INFO - Started process (PID=2359) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:25.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:52:25.681+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:25.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:25.871+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:25.887+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:25.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:52:25.900+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:25.900+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:52:25.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.236 seconds
+[2025-03-05T23:52:56.143+0000] {processor.py:186} INFO - Started process (PID=2366) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:56.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:52:56.146+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:56.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:56.340+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:52:56.355+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:56.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:52:56.368+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:52:56.368+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:52:56.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.241 seconds
+[2025-03-05T23:53:26.535+0000] {processor.py:186} INFO - Started process (PID=2373) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:26.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:53:26.537+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:26.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:26.733+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:26.752+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:26.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:53:26.768+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:26.767+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:53:26.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.246 seconds
+[2025-03-05T23:53:57.538+0000] {processor.py:186} INFO - Started process (PID=2380) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:57.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:53:57.541+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:57.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:57.734+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:53:57.751+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:57.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:53:57.764+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:53:57.764+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:53:57.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.239 seconds
+[2025-03-05T23:54:27.867+0000] {processor.py:186} INFO - Started process (PID=2387) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:27.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:54:27.870+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:27.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:28.060+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:28.075+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:28.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:54:28.088+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:28.088+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:54:28.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.237 seconds
+[2025-03-05T23:54:58.212+0000] {processor.py:186} INFO - Started process (PID=2394) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:58.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:54:58.215+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:58.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:58.404+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:54:58.421+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:58.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:54:58.434+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:54:58.433+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:54:58.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.237 seconds
+[2025-03-05T23:55:28.780+0000] {processor.py:186} INFO - Started process (PID=2401) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:28.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:55:28.782+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:28.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:28.975+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:28.991+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:28.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:55:29.005+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:29.005+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:55:29.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.239 seconds
+[2025-03-05T23:55:59.086+0000] {processor.py:186} INFO - Started process (PID=2407) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:59.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:55:59.088+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:59.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:59.277+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:55:59.293+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:59.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:55:59.307+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:55:59.306+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:55:59.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.235 seconds
+[2025-03-05T23:56:30.891+0000] {processor.py:186} INFO - Started process (PID=2408) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:56:30.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:56:30.893+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:56:30.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:56:31.081+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:56:31.097+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:56:31.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:56:31.110+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:56:31.109+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:56:31.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.231 seconds
+[2025-03-05T23:57:01.190+0000] {processor.py:186} INFO - Started process (PID=2415) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:01.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:57:01.193+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:01.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:01.400+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:01.417+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:01.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:57:01.430+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:01.430+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:57:01.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.254 seconds
+[2025-03-05T23:57:31.794+0000] {processor.py:186} INFO - Started process (PID=2428) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:31.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:57:31.796+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:31.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:32.029+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:57:32.046+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:32.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:57:32.061+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:57:32.061+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:57:32.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.284 seconds
+[2025-03-05T23:58:02.105+0000] {processor.py:186} INFO - Started process (PID=2435) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:58:02.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:58:02.107+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:58:02.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:58:02.298+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:58:02.314+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:58:02.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:58:02.327+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:58:02.327+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:58:02.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.235 seconds
+[2025-03-05T23:59:10.426+0000] {processor.py:186} INFO - Started process (PID=2442) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:10.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:59:10.428+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:10.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:10.616+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:10.632+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:10.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:59:10.645+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:10.645+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:59:10.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.233 seconds
+[2025-03-05T23:59:40.906+0000] {processor.py:186} INFO - Started process (PID=2449) to work on /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:40.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dummyDag.py for tasks to queue
+[2025-03-05T23:59:40.909+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:40.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:41.102+0000] {processor.py:925} INFO - DAG(s) 'split_airflow_tasks' retrieved from /opt/airflow/dags/dummyDag.py
+[2025-03-05T23:59:41.117+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:41.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-05T23:59:41.130+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:59:41.130+0000] {dag.py:4180} INFO - Setting next_dagrun for split_airflow_tasks to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-05T23:59:41.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dummyDag.py took 0.238 seconds

@@ -1,0 +1,44 @@
+[
+    {
+        "studentID": "1",
+        "Major": "Computer Science",
+        "Address": "123 Main St, Toronto",
+        "Age": 27,
+        "Name": "Alice"
+    },
+    {
+        "studentID": "2",
+        "Major": "Data Science",
+        "Address": "456 Queen St, Toronto",
+        "Age": 30,
+        "Name": "Bob"
+    },
+    {
+        "studentID": "3",
+        "Major": "Mathematics",
+        "Address": "789 King St, Toronto",
+        "Age": 35,
+        "Name": "Charlie"
+    },
+    {
+        "studentID": "4",
+        "Major": "Physics",
+        "Address": "321 Bay St, Toronto",
+        "Age": 40,
+        "Name": "David"
+    },
+    {
+        "studentID": "5",
+        "Major": "Economics",
+        "Address": "654 Yonge St, Toronto",
+        "Age": 45,
+        "Name": "Eve"
+    },
+    {
+        "studentID": "6",
+        "Major": "Engineering",
+        "Address": "987 Bloor St, Toronto",
+        "Age": 50,
+        "Name": "Frank"
+    }
+]

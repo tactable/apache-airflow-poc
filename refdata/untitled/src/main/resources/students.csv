@@ -1,0 +1,7 @@
+id,name,age,address,major
+1,Alice,27,"123 Main St, Toronto",Computer Science
+2,Bob,30,"456 Queen St, Toronto",Data Science
+3,Charlie,35,"789 King St, Toronto",Mathematics
+4,David,40,"321 Bay St, Toronto",Physics
+5,Eve,45,"654 Yonge St, Toronto",Economics
+6,Frank,50,"987 Bloor St, Toronto",Engineering
