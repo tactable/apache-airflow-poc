@@ -1,12 +1,12 @@
 {
     "name": "Apache Flink POC",
     "dockerComposeFile": "docker-compose.yaml",
-    "service": "airflow-worker",
+    "service": "airflow-scheduler",
     "runServices": [
         "postgres",
         "redis",
         "airflow-webserver",
-        "airflow-scheduler",
+        "airflow-worker",
 		"airflow-init",
 		"airflow-cli"
     ],

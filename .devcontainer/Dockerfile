@@ -15,7 +15,3 @@ RUN wget https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u32
 
 USER airflow
 
-COPY requirements.txt /requirements.txt
-
-
-RUN pip install --no-cache-dir -r /requirements.txt
