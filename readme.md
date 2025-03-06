@@ -103,4 +103,14 @@ After running the DAG, the JSON file `/output/enriched_students.json` should con
   }
 ]
 ```
+---
 
+## ✅ Airflow Feature Evaluation
+
+| Feature                                      | Airflow Support | Workaround |
+|----------------------------------------------|-----------------|------------|
+| **BAS can configure the mapping easily from the UI**  | ❌ No built-in UI configuration; requires DAG updates | Use **environment variables** or **external config files** for dynamic mapping? |
+| **BAS can run the pipeline easily from the UI**  | ✅ Yes, DAGs can be triggered manually from the UI | N/A |
+| **The tool has a good logging solution**      | ✅ Yes, logs are available per task in the UI | N/A
+| **The tool can access the data enrichment service easily (refData)** | ✅ Yes, supports calling external JARs and APIs | N/A |
+| **The tool can perform streaming efficiently** | ❌ No, Airflow is designed for batch processing, not real-time streaming | Use **Apache Kafka + Spark Streaming** for real-time processing? |
