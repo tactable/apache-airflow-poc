@@ -1,44 +1,44 @@
 [
     {
-        "studentID": "1",
-        "Major": "Computer Science",
-        "Address": "123 Main St, Toronto",
-        "Age": 27,
-        "Name": "Alice"
+        "id": "1",
+        "name": "Alice",
+        "age": "27",
+        "address": "123 Main St, Toronto",
+        "major": "Computer Science"
     },
     {
-        "studentID": "2",
-        "Major": "Data Science",
-        "Address": "456 Queen St, Toronto",
-        "Age": 30,
-        "Name": "Bob"
+        "id": "2",
+        "name": "Bob",
+        "age": "30",
+        "address": "456 Queen St, Toronto",
+        "major": "Data Science"
     },
     {
-        "studentID": "3",
-        "Major": "Mathematics",
-        "Address": "789 King St, Toronto",
-        "Age": 35,
-        "Name": "Charlie"
+        "id": "3",
+        "name": "Charlie",
+        "age": "35",
+        "address": "789 King St, Toronto",
+        "major": "Mathematics"
     },
     {
-        "studentID": "4",
-        "Major": "Physics",
-        "Address": "321 Bay St, Toronto",
-        "Age": 40,
-        "Name": "David"
+        "id": "4",
+        "name": "David",
+        "age": "40",
+        "address": "321 Bay St, Toronto",
+        "major": "Physics"
     },
     {
-        "studentID": "5",
-        "Major": "Economics",
-        "Address": "654 Yonge St, Toronto",
-        "Age": 45,
-        "Name": "Eve"
+        "id": "5",
+        "name": "Eve",
+        "age": "45",
+        "address": "654 Yonge St, Toronto",
+        "major": "Economics"
     },
     {
-        "studentID": "6",
-        "Major": "Engineering",
-        "Address": "987 Bloor St, Toronto",
-        "Age": 50,
-        "Name": "Frank"
+        "id": "6",
+        "name": "Frank",
+        "age": "50",
+        "address": "987 Bloor St, Toronto",
+        "major": "Engineering"
     }
 ]

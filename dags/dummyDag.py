@@ -1,7 +1,10 @@
+import requests
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 import pandas as pd
+import csv
+import io
 import os
 import subprocess
 import json
@@ -16,7 +19,8 @@ SOURCE1_PATH = "/opt/airflow/data/source1/source1.csv"
 SOURCE2_PATH = "/opt/airflow/data/source2/source2.csv"
 MERGED_CSV_PATH = "/opt/airflow/output/merged.csv"
 OUTPUT_PATH = "/opt/airflow/output/enriched_students.json"
-JAR_PATH = "/opt/airflow/javaLib/refdata-1.0-SNAPSHOT.jar"  # Java JAR file path
+# API URL
+API_URL = "https://23d753f7-3609-4c1a-85b9-83209377f25c.mock.pstmn.io/refdata"
 
 default_args = {
     'start_date': datetime(2024, 3, 5),
@@ -68,45 +72,39 @@ extract_ids_task = PythonOperator(
     dag=dag,
 )
 
-# 3️ Fetch Data from Java JAR
 def fetch_student_data(**kwargs):
-    """Calls Java JAR for each student ID and returns enriched data"""
+    """Fetches student data from an API, filters by student IDs, and formats as JSON for XCom."""
     ti = kwargs['ti']
     student_ids = ti.xcom_pull(task_ids='extract_student_ids', key='student_ids')
 
     if not student_ids:
-        logger.error("No student IDs found in XCom! Exiting.")
+        logger.error("❌ No student IDs found in XCom! Exiting.")
         return
 
-    logger.info(f"Processing {len(student_ids)} students: {student_ids}")
+    logger.info(f"🔍 Fetching student data from API for {len(student_ids)} students.")
 
-    enriched_students = []
+    try:
+        # Call the API
+        response = requests.get(API_URL)
+        response.raise_for_status()  # Raise error for bad responses
 
-    for student_id in student_ids:
-        command = ["java", "-jar", JAR_PATH, str(student_id)]
-        logger.info(f"Executing command: {' '.join(command)}")
+        # Read the CSV response properly using `csv.DictReader`
+        csv_data = io.StringIO(response.text)
+        reader = csv.DictReader(csv_data)
 
-        try:
-            result = subprocess.run(
-                command,
-                capture_output=True,
-                text=True,
-                check=True
-            )
+        # Convert CSV to a list of dictionaries
+        students_data = [row for row in reader]
 
-            if result.stdout:
-                logger.info(f"Java Output for student {student_id}: {result.stdout}")
-                student_data = json.loads(result.stdout)  # Parse JSON from Java output
-                enriched_students.append(student_data)
-            else:
-                logger.warning(f"No output received from Java for student {student_id}")
+        # Filter students based on extracted IDs
+        enriched_students = [student for student in students_data if student["id"] in map(str, student_ids)]
 
-        except subprocess.CalledProcessError as e:
-            logger.error(f"Error processing student {student_id}: {e}")
-            logger.error(f"Standard Error: {e.stderr}")
+        logger.info(f"✅ Enriched student data: {json.dumps(enriched_students, indent=4)}")
 
-    logger.info(f"Enriched students data: {enriched_students}")
-    ti.xcom_push(key='enriched_students', value=enriched_students)
+        # Push enriched data to XCom for the next Airflow task
+        ti.xcom_push(key='enriched_students', value=enriched_students)
+
+    except requests.RequestException as e:
+        logger.error(f"❌ API request failed: {e}")
 
 fetch_data_task = PythonOperator(
     task_id='Data_enrichment',
