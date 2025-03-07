@@ -1,7 +1,7 @@
 import requests
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 import csv
 import io
@@ -20,7 +20,7 @@ SOURCE2_PATH = "/opt/airflow/data/source2/source2.csv"
 MERGED_CSV_PATH = "/opt/airflow/output/merged.csv"
 OUTPUT_PATH = "/opt/airflow/output/enriched_students.json"
 # API URL
-API_URL = "https://23d753f7-3609-4c1a-85b9-83209377f25c.mock.pstmn.io/refdata"
+API_URL = "https://23d753f7-3609-4c1a-85b9-83209377f25c123.mock.pstmn.io/refdata"
 
 default_args = {
     'start_date': datetime(2024, 3, 5),
@@ -28,7 +28,7 @@ default_args = {
 }
 
 dag = DAG(
-    'TD_pipeline_POC',
+    'Networkissue',
     schedule_interval='@daily',
     default_args=default_args,
 )
@@ -113,6 +113,8 @@ fetch_data_task = PythonOperator(
     task_id='Data_enrichment',
     python_callable=fetch_student_data,
     provide_context=True,
+    retries=2,  # ✅ Retry up to 2 times
+    retry_delay=timedelta(seconds=2),
     dag=dag,
 )
 
