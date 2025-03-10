@@ -258,4 +258,32 @@ Through XCom, you can:
 
 ---
 
+## 🗓 **Scheduling in Airflow**
+
+Airflow has a powerful built-in scheduling engine, enabling precise and flexible execution of tasks:
+
+### ✅ **Key Features**
+
+- **Cron-based Scheduling**:  
+  Schedule DAGs using standard cron expressions (`0 0 * * *`) or presets (`@daily`, `@weekly`, `@hourly`, etc.).
+
+- **Task Dependencies**:  
+  Clearly define task dependencies to ensure correct execution order:
+  ```python
+  task_a >> task_b >> task_c
+  ```
+
+- **Flexible Scheduling Options:**
+  - Time-based intervals (`@daily`, `@hourly`)
+  - Custom cron schedules (`0 6 * * *` to run daily at 6 AM)
+  - Event-triggered schedules using sensors (e.g., file arrival, external events)
+
+- **Backfill & Catch-up:**  
+  Automatically run past instances using `catchup=True`.
+
+- **Manual Triggering:**  
+  You can manually trigger DAG runs from Airflow UI or CLI, making ad-hoc execution easy for troubleshooting or ad-hoc runs.
+
+![image](https://github.com/user-attachments/assets/13188689-266c-45af-81e8-57d061d1694a)
+
 
