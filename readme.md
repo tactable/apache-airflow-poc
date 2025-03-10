@@ -36,7 +36,7 @@ The DAG processes student data through the following tasks:
 ```
 merge_csv ➡️ extract_student_ids ➡️ Data_enrichment ➡️ save_json
 ```
-![Image](https://github.com/user-attachments/assets/3e06f898-34a0-4bbb-98aa-6691cb55fbbe)
+![Image](https://github.com/user-attachments/assets/8c254cf9-384f-4ad6-bcd4-d63569b6f789)
 ---
 
 📌 **How to Run the Airflow POC**
@@ -70,8 +70,8 @@ http://localhost:8080
 ## 3️⃣ Trigger the DAG from the Airflow Web UI  
 
 1. In the **Airflow UI**, go to the **DAGs** list.  
-2. Locate `TD_pipeline_POC` (or your DAG name). ![Image](https://github.com/user-attachments/assets/b6b1bc23-fd36-47d1-867c-48466acabc9f) 
-3. Click the **Trigger DAG** button ▶️.![Image](https://github.com/user-attachments/assets/d3742492-9839-40a6-9bf9-b5d17628a182)
+2. Locate `TD_pipeline_POC` (or your DAG name). ![Image](https://github.com/user-attachments/assets/99deb574-95b2-45cb-91c7-311000471ab1)
+3. Click the **Trigger DAG** button ▶️.![Image](https://github.com/user-attachments/assets/34a8af78-c256-4949-9cba-9153e3dc9b16)
 
 
 ## 4️⃣ Verify the Output  
