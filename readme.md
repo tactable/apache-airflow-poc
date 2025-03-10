@@ -112,10 +112,15 @@ After running the DAG, the JSON file `/output/enriched_students.json` should con
 
 ## ✅ Airflow Feature Evaluation
 
-| Feature                                      | Airflow Support | Workaround |
-|----------------------------------------------|-----------------|------------|
-| **BAS can configure the mapping easily from the UI**  | ❌ No built-in UI configuration; requires DAG updates | Use **environment variables** or **external config files** for dynamic mapping? |
-| **BAS can run the pipeline easily from the UI**  | ✅ Yes, DAGs can be triggered manually from the UI | N/A |
-| **The tool has a good logging solution**      | ✅ Yes, logs are available per task in the UI | N/A
-| **The tool can access the data enrichment service easily (refData)** | ✅ Yes, supports calling external JARs and APIs | N/A |
-| **The tool can perform streaming efficiently** | ❌ No, Airflow is designed for batch processing, not real-time streaming | Use **Apache Kafka + Spark Streaming** for real-time processing? |
+
+| Requirement                                      | Airflow Support                                    | Workaround / Notes                           |
+|--------------------------------------------------|----------------------------------------------------|-----------------------------------------------------|
+| **Batch & Streaming Support**      | ⚠️ Partial: ✅ Batch, ❌ Limited Streaming           | Use **Apache Kafka + NIFI/Flink** for streaming.  |
+| **Configurable Transformations**         | ✅ Yes (via code)                                  | Use external **config files or Airflow Variables**.|
+| **Horizontal Scalability**         | ✅ Yes                                             | Supports CeleryExecutor and KubernetesExecutor for distributed execution across multiple workers.      |
+| **Self-Hosted Deployment**                             | ✅ Yes                                             | Airflow can be deployed on on-premise servers, private cloud, or Kubernetes.                                               |
+| **Real-Time Stream Processing (<1 sec latency)**     | ❌ No                                              | Use **Apache Kafka + NIFI/Flink** for streaming.            |
+| **End-to-End Testability**        | ⚠️ Partial                                        | Integrate testing tools like **pytest-airflow**.   |
+| **Retry Mechanism**                          | ✅ Yes                                             | Airflow supports automatic retries, exponential backoff, and custom error handling via retries, retry_delay, and retry_exponential_backoff.                                                |
+| **Re-Runnable Workflows**                        | ✅ Yes                                             | DAGs support rerunning only failed tasks via UI, CLI, API, or depends_on_past.                                               |
+
