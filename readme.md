@@ -124,3 +124,138 @@ After running the DAG, the JSON file `/output/enriched_students.json` should con
 | **Retry Mechanism**                          | ✅ Yes                                             | Airflow supports automatic retries, exponential backoff, and custom error handling via retries, retry_delay, and retry_exponential_backoff.                                                |
 | **Re-Runnable Workflows**                        | ✅ Yes                                             | DAGs support rerunning only failed tasks via UI, CLI, API, or depends_on_past.                                               |
 
+---
+
+## 🧪 **Testability in Airflow**
+
+Airflow provides effective support for **unit and task-level testing**, but true **end-to-end testing** is limited.
+
+### ✅ **Unit & Task-Level Testing**
+
+Airflow DAGs are defined in Python, making them easily testable using standard Python testing frameworks such as **`pytest`**.
+
+- **Test Individual Tasks:**
+  - Each task can be tested independently by calling its Python functions directly.
+  - Ideal for verifying **logic, configurations, and outputs**.
+
+### ✅ **pytest-airflow**
+
+[`pytest-airflow`](https://github.com/apache/airflow/tree/main/tests) is a testing framework designed specifically for Airflow, allowing you to:
+
+- Test DAG structures and task definitions.
+- Validate task dependencies and scheduling logic.
+- Run tasks in isolation, verifying behavior and exceptions.
+
+
+---
+
+## 🔄 **Retry Mechanism in Airflow Tasks**
+
+In Apache Airflow, a built-in retry mechanism can be configured directly within task definitions, significantly improving the robustness and reliability of workflows, especially when tasks involve external dependencies or network calls.
+
+### ✅ **How to Configure Task Retries**
+When defining tasks in Airflow, retries are specified through two main parameters:
+
+- `retries`: Defines how many times Airflow should automatically retry a failed task.
+- `retry_delay`: Specifies the delay between retry attempts (can be set precisely, e.g., in seconds or minutes).
+
+**Example Task Configuration:**
+
+```python
+fetch_data_task = PythonOperator(
+    task_id='Data_enrichment',
+    python_callable=fetch_student_data,
+    provide_context=True,
+    retries=2,  # ✅ Retry up to 2 times
+    retry_delay=timedelta(seconds=2),  # Retry after waiting 2 seconds
+    dag=dag,
+)
+```
+
+In this example:
+
+- The task `Data_enrichment` will retry **up to two times** if an initial failure occurs.
+- After a failure, the system will **wait exactly 2 seconds** before attempting a retry.
+
+---
+
+### 📋 **Traceability and Monitoring Retry Events**
+
+Airflow provides clear traceability of retry activities through its built-in monitoring interface. Users can easily review retry attempts, including timing and reasons for failures, using the **Event Log**:
+
+- Navigate to the Airflow Web UI.
+- Select your DAG and the specific task instance.
+- Open the **"Event Log"** tab to view detailed retry records.
+
+In the **Event Log**, Airflow explicitly logs information such as:
+
+- When a task retry occurs.
+- How many retry attempts have been executed.
+- Error messages that triggered the retries.
+- Timestamps of each retry event.
+
+![image](https://github.com/user-attachments/assets/35d3d889-479e-4bf6-8f55-a3f69c0ad835)
+
+
+This detailed logging facilitates debugging, transparency, and improved task reliability, enabling developers and operations teams to quickly identify and rectify underlying issues causing task failures.
+
+---
+
+Here's a refined and detailed section for your research document regarding the rerun-ability of tasks in Airflow:
+
+---
+
+
+### ✅ **Rerunning Failed Tasks**
+
+When a task fails, Airflow visually marks it clearly in red within the DAG's Graph View. The downstream tasks impacted by the failed task are labeled as `upstream_failed`, making it straightforward to identify the point of failure and affected tasks.
+
+**Procedure to Rerun a Failed Task:**
+
+1. Navigate to the Airflow Web UI.
+2. Select the DAG that contains the failed task.
+3. Go to the **Graph View**.
+4. Identify the failed task (highlighted in red).
+5. Click on the failed task and select **"Clear task"**.
+
+By clicking **"Clear task"**, Airflow resets the state of only that particular task (and optionally downstream tasks if selected), causing it to rerun without triggering the successful upstream tasks again.
+![image](https://github.com/user-attachments/assets/2c8a1f08-6021-4ac5-9613-78c80161aceb)
+
+
+---
+
+Here's a refined section on **Logging and XCom functionality in Airflow**, based on your provided details and screenshot:
+
+---
+
+### 📌 **Task-Level Logging**
+
+Each task executed by Airflow generates detailed logs. You can access these logs directly via the Airflow Web UI, greatly simplifying the process of debugging.
+
+
+Airflow logs provide:
+
+- Detailed timestamps for each log entry.
+- Standard output and error outputs (`stdout` and `stderr`).
+- Clear error messages and stack traces for failed tasks.
+![image](https://github.com/user-attachments/assets/47269c08-e1a7-4846-bab7-03c6fb5b1f5b)
+
+
+---
+
+### 🔗 **Tracing Output with XCom**
+
+Airflow's XCom (Cross-communication) feature allows tasks to exchange small amounts of data. It is useful for passing intermediate results or statuses from one task to subsequent tasks.
+
+
+Through XCom, you can:
+
+- View and debug data passed between tasks.
+- Understand task dependencies based on actual runtime data.
+- Easily verify the correctness of intermediate outputs in the pipeline.
+![image](https://github.com/user-attachments/assets/1b265d12-975d-407f-ae05-320a5be887ba)
+
+
+---
+
+
